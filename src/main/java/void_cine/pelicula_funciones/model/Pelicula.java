@@ -21,5 +21,5 @@ public class Pelicula {
     private String nombrePelicula;
 
     private int duracion;
-    private String calsificacion;
+    private String clasificacion;
 }
