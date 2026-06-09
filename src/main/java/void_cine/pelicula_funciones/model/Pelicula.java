@@ -17,7 +17,7 @@ public class Pelicula {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long peliculaId;
 
-    @Column(name = "nombre", nullable = false, length = 200)
+    @Column(name = "nombrePelicula", nullable = false, length = 200)
     private String nombrePelicula;
 
     private int duracion;
