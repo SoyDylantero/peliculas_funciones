@@ -21,7 +21,7 @@ public class Funcion {
     private long funcionId;
 
     @Column(name = "hora_funcion")
-    private LocalDate horaFuncion;
+    private LocalDateTime horaFuncion;
 
     
     private Double precio;
